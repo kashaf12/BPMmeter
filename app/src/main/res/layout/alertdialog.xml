@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/cd_edit_exe"
+    android:background="@color/primary_black"
+    android:layout_width="330.0dip"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/mainLayout"
+        android:focusableInTouchMode="true"
+        android:descendantFocusability="beforeDescendants"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginTop="40.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginBottom="20.0dip"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_gravity="center_vertical"
+            android:id="@+id/input_layout_password"
+            android:textColorHint="@color/secondary_white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <AutoCompleteTextView
+                android:textSize="24.0sp"
+                android:textColor="@color/primary_white"
+                android:gravity="start"
+                android:id="@+id/autoCompleteUpdate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0.0dip"
+                android:textColorHint="@color/secondary_white"
+                android:hint="LABEL"
+                android:maxLines="1"
+                android:maxLength="24"
+                android:popupBackground="@color/secondary_black_shadow"
+                android:inputType="text"
+                android:windowSoftInputMode="stateHidden"
+                android:imeOptions="actionDone" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/primary_black"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginBottom="20.0dip"
+        android:layout_marginStart="5.0dip"
+        android:layout_marginEnd="5.0dip"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button
+            android:textSize="16.0sp"
+            android:textColor="@color/secondary"
+            android:layout_gravity="center"
+            android:id="@+id/delete"
+            android:clickable="true"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="DELETE"
+            android:layout_weight="1.0"
+            style="?android:attr/buttonBarButtonStyle" />
+        <LinearLayout
+            android:background="@color/primary_black"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2" />
+        <Button
+            android:textSize="16.0sp"
+            android:textColor="@color/primary_white"
+            android:layout_gravity="center"
+            android:id="@+id/cancel"
+            android:clickable="true"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:text="CANCEL"
+            android:maxLines="1"
+            android:layout_weight="1.0"
+            style="?android:attr/buttonBarButtonStyle" />
+        <Button
+            android:textSize="16.0sp"
+            android:textColor="@color/primary_white"
+            android:id="@+id/update"
+            android:clickable="true"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:text="UPDATE"
+            android:maxLines="1"
+            android:layout_weight="1.0"
+            style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

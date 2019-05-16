@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/cd_edit_exe"
+    android:background="@color/primary_black"
+    android:layout_width="300.0dip"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/main_relative"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="50.0dip"
+        android:layout_marginBottom="30.0dip"
+        android:baselineAligned="false"
+        android:layout_weight="1.5">
+        <ImageView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/text_popup"
+            android:src="@mipmap/ic_launcher_foreground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/mainLayout"
+        android:focusableInTouchMode="true"
+        android:descendantFocusability="beforeDescendants"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginTop="0.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginBottom="20.0dip"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <android.support.design.widget.TextInputLayout
+            android:layout_gravity="center_vertical"
+            android:id="@+id/input_layout_password"
+            android:textColorHint="@color/secondary_white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <AutoCompleteTextView
+                android:textSize="20.0sp"
+                android:textColor="@color/primary_white"
+                android:gravity="start"
+                android:id="@+id/autoCompleteTextView"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0.0dip"
+                android:hint="Kashaf Ahmed"
+                android:textAlignment="center"
+                android:textColorHint="@color/secondary_white"
+                android:maxLines="1"
+                android:maxLength="24"
+                android:popupBackground="@color/secondary_black_shadow"
+                android:inputType="text"
+                android:windowSoftInputMode="stateHidden"
+                android:imeOptions="actionDone" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="70.0sp">
+        <Button
+            android:textSize="18.0sp"
+            android:textColor="@color/secondary_white"
+            android:id="@+id/btn_ignore"
+            android:clickable="true"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:text="CSE"
+            android:layout_weight="1.0"
+            style="?android:attr/borderlessButtonStyle" />
+        <Button
+            android:textSize="18.0sp"
+            android:textColor="@color/secondary"
+            android:layout_gravity="center"
+            android:id="@+id/btn_save"
+            android:clickable="true"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:text="16227"
+            android:layout_weight="1.0"
+            style="?android:attr/borderlessButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

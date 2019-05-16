@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff263143</color>
+    <color name="colorAccent">#ffd0d4db</color>
+    <color name="ap_black">#ff000000</color>
+    <color name="ap_charcoal">#ff111111</color>
+    <color name="ap_gray">#ff888888</color>
+    <color name="ap_transparent">#00000000</color>
+    <color name="ap_white">#ffffffff</color>
+    <color name="notification_material_background_media_default_color">#ff424242</color>
+    <color name="off_white">#ffeeeeee</color>
+    <color name="primary_black">#ff263143</color>
+    <color name="primary_grey">#ffd0d4db</color>
+    <color name="primary_white">#ffeeeeee</color>
+    <color name="secondary">#ffff0075</color>
+    <color name="secondary_black">#ff667183</color>
+    <color name="secondary_black_shadow">#ff465163</color>
+    <color name="secondary_transparent">#90ff0075</color>
+    <color name="secondary_white">#ffa0a0a0</color>
+</resources>
